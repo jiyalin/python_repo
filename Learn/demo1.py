@@ -1,4 +1,5 @@
 import logging
+import io
 
 for i in range(10):
     logging.basicConfig(filename='test.log', level=logging.DEBUG)
