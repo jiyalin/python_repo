@@ -1,0 +1,1 @@
+{"data":[{"dt":"20181204","kpi_value":111,"kpi_name":"总开通租户数"},{"dt":"20181204","kpi_value":2,"kpi_name":"当日新开通租户数"}],"errCode":0,"requestId":"86108a73-5b81-4681-9d87-b98f91999fb5","success":true,"errMsg":"success","errorCode":"200","fields":[{"dt":"20181204","kpi_value":111,"kpi_name":"总开通租户数"},{"dt":"20181204","kpi_value":2,"kpi_name":"当日新开通租户数"}]}
