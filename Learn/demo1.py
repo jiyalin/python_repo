@@ -1,6 +1,7 @@
-import wget
-
+import logging
 
 for i in range(10):
-    wget.download("http://0d61224e92fa41a1887cb35a759aa4e1-cn-shanghai.alicloudapi.com/test1?dt=20181204")
-    print( i )
+    logging.basicConfig(filename='test.log', level=logging.DEBUG)
+    logging.warning("this is warning msg")
+    logging.info("this is info msg")
+    logging.debug("this is debug msg")
