@@ -13,9 +13,9 @@ def askGuestNames():
     return names
 
 def returnMoreVars():
-    name = 'name'
+    name1 = 'name'
     age = 'age'
-    return name, age
+    return name1, age
 
 def main():
     for i in range(1):
