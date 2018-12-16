@@ -15,7 +15,7 @@ def askGuestNames():
 def returnMoreVars():
     name = 'name'
     age = 'age'
-    return namem, age
+    return name, age
 
 def main():
     for i in range(1):
@@ -33,6 +33,9 @@ def main():
         
         newFile = open('test_out.log', 'w')
         
+        name, age = returnMoreVars()
+        print(name)
+        print(age)
 
         
         print('there are serveral guests coming')
